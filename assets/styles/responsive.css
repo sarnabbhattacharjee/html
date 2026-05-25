@@ -1,0 +1,128 @@
+@media (max-width: 767.98px) {
+
+.drop{
+    display: none;
+}
+.menu{
+    display: none;
+}
+nav .container .access{
+    display: none;
+}
+nav .container .logo{
+    width: 100%;
+    padding: 10px 0;
+top: 0;
+
+}
+
+/* Mobile menu section start */
+.mobile_menu{
+    display: block;
+    font-size: 35px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 0;          
+    right: 15px;
+}
+/* Mobile menu section end */
+
+/* Hero section start */
+#hero .image{
+    width: 100%;
+   
+}
+#hero .image{
+    text-align: left;
+}
+
+#hero .content{
+    width: 100%;
+}
+
+#hero {
+    padding: 44px 0;
+}
+
+#hero .content h2{
+    font-size: 40px;
+}
+
+#hero{
+    padding: 20px;
+}
+
+#hero .slider{
+    display: none;
+}
+
+
+
+
+
+
+
+/* Responsive Updates for Clients & Community */
+#clients, #community {
+    padding: 30px 20px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.client-logos {
+    justify-content: center;
+    gap: 30px; /* Adds space when they wrap on mobile */
+}
+
+.community-cards {
+    flex-direction: column; /* Stacks the cards vertically */
+    align-items: center;
+}
+
+.card {
+    width: 100%; /* Makes cards take full width on mobile */
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Updates for Pixelgrade */
+#pixelgrade .row {
+    flex-direction: column;
+}
+
+#pixelgrade {
+    padding: 40px 20px;
+}
+
+#pixelgrade .image, 
+#pixelgrade .content {
+    width: 100%;
+}
+
+#pixelgrade .image {
+    margin-bottom: 30px;
+}
+
+#pixelgrade .content h2 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+
+}
+/* Hero section End */
